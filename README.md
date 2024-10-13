@@ -1,4 +1,9 @@
-# MX5黑快
+# MX5 黑快
+
 Mods I'll probably regret fucking doing my Talaria MX5
 
--- WIP -- 
+-- WIP --
+
+# BASE
+
+![](Misc/Resources/pics/IMG_2202.jpeg)
