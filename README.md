@@ -7,3 +7,5 @@ Mods I'll probably regret fucking doing my Talaria MX5
 # BASE
 
 ![](Misc/Resources/pics/IMG_2202.jpeg)
+
+![](Misc/Resources/pics/IMG_2243.jpeg)
