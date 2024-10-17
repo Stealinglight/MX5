@@ -1,6 +1,6 @@
 # MX5 黑快
 
-Mods I'll probably regret fucking doing my Talaria MX5
+Mods I'll probably regret fucking doing to my Talaria MX5
 
 -- WIP --
 
