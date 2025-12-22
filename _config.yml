@@ -1,0 +1,55 @@
+# Site settings
+title: MX5 黑快
+description: Mods I'll probably regret doing to my Talaria MX5
+author:
+  name: Stealinglight
+  url: https://github.com/Stealinglight
+  email:
+
+# Build settings
+baseurl: "/MX5"
+url: "https://stealinglight.github.io"
+permalink: /:year/:month/:day/:title
+
+# Theme
+theme: tale
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO
+lang: en
+timezone: America/Los_Angeles
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+  - Misc
+  - "Rear Rack"
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
