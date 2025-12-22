@@ -1,0 +1,183 @@
+---
+---
+
+@import "tale";
+
+/* System color scheme support - automatic light/dark mode */
+
+/* Light mode (default) variables */
+:root {
+  --background-color: #fff;
+  --text-color: #555;
+  --heading-color: #333;
+  --link-color: #4a9ae1;
+  --link-hover-color: #1E6BB8;
+  --border-color: #ddd;
+  --code-background: #f9f9f9;
+  --blockquote-border: #e5e5e5;
+  --nav-background: #fff;
+  --nav-link-color: #aaa;
+  --nav-link-active-color: #000;
+  --footer-color: #aaa;
+  --pagination-background: #eee;
+}
+
+/* Dark mode - automatically activated when user prefers dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1a1a1a;
+    --text-color: #c9cacc;
+    --heading-color: #e4e4e4;
+    --link-color: #6ab0f3;
+    --link-hover-color: #8dc6ff;
+    --border-color: #3a3a3a;
+    --code-background: #2a2a2a;
+    --blockquote-border: #3a3a3a;
+    --nav-background: #1a1a1a;
+    --nav-link-color: #888;
+    --nav-link-active-color: #e4e4e4;
+    --footer-color: #888;
+    --pagination-background: #2a2a2a;
+  }
+}
+
+/* Apply color scheme variables */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover-color);
+}
+
+.nav {
+  background-color: var(--nav-background);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav-title {
+  color: var(--heading-color);
+}
+
+.nav a {
+  color: var(--nav-link-color);
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: var(--nav-link-active-color);
+}
+
+.nav-container .active {
+  color: var(--nav-link-active-color);
+}
+
+code {
+  background-color: var(--code-background);
+  color: var(--text-color);
+}
+
+pre {
+  background-color: var(--code-background);
+}
+
+pre code {
+  background-color: transparent;
+}
+
+blockquote {
+  border-left-color: var(--blockquote-border);
+  color: var(--text-color);
+}
+
+hr {
+  border-top-color: var(--border-color);
+}
+
+.catalogue-item {
+  border-bottom-color: var(--border-color);
+}
+
+.catalogue-time {
+  color: var(--nav-link-color);
+}
+
+.post-title {
+  color: var(--heading-color);
+}
+
+.post-line {
+  border-top-color: var(--border-color);
+}
+
+.post-date {
+  color: var(--nav-link-color);
+}
+
+.pagination {
+  border-top-color: var(--border-color);
+}
+
+.pagination-item {
+  background-color: var(--pagination-background);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+footer {
+  color: var(--footer-color);
+}
+
+footer a {
+  color: var(--footer-color);
+}
+
+footer a:hover,
+footer a:focus {
+  color: var(--heading-color);
+}
+
+/* Ensure images look good in both modes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Dark mode image adjustment */
+@media (prefers-color-scheme: dark) {
+  img {
+    opacity: 0.9;
+  }
+  
+  img:hover {
+    opacity: 1;
+  }
+}
+
+/* Table styling for both modes */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+table th,
+table td {
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+}
+
+table th {
+  background-color: var(--code-background);
+  font-weight: bold;
+}
