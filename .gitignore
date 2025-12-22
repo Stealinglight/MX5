@@ -21,6 +21,7 @@ vendor/
 
 # Bundler
 Gemfile.lock
+.bundle
 
 # macOS
 .DS_Store

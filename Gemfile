@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-gem "tale", "~> 0.4.0"
+gem "tale"
 
 group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.8"
