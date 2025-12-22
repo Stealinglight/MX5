@@ -53,7 +53,7 @@ Here are two images of the final install. It's a solid fit, and the rack holds s
 
 It's been 3 weeks since I installed the rack, and I've had zero issues carrying the weight of my lock and chain. I use the **Kryptonite New York 1213 Cinch Ring** lock, which is about 5kg (just under the rack's weight limit of 12lbs).
 
-<img src="https://m.media-amazon.com/images/I/81d5k5K5EvL._AC_SX679_.jpg" alt="Kryptonite New York 1213 Cinch Ring Lock" width="300" height="285">
+![Kryptonite New York 1213 Cinch Ring Lock](https://m.media-amazon.com/images/I/81d5k5K5EvL._AC_SX679_.jpg)
 
 - [Kryptonite Lock on Amazon](https://amzn.to/4eQugYg)
 
